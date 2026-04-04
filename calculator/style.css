@@ -8,7 +8,6 @@ body {
     height: 100vh;
 }
 
-/* Container */
 .calculator {
     background: #1e1e2f;
     padding: 20px;
@@ -16,7 +15,6 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
-/* Display */
 #display {
     width: 100%;
     height: 60px;
@@ -30,14 +28,12 @@ body {
     color: white;
 }
 
-/* Buttons Grid */
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 70px);
     gap: 10px;
 }
 
-/* Button Style */
 button {
     height: 60px;
     border: none;
@@ -53,7 +49,6 @@ button:hover {
     background: #44445a;
 }
 
-/* Special Buttons */
 .clear {
     background: #ff4d4d;
 }
