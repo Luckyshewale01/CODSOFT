@@ -10,7 +10,6 @@ body{
   color:#222;
 }
 
-/* HEADER */
 header{
   background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
   color:white;
@@ -36,7 +35,6 @@ header p{
   opacity:0.9;
 }
 
-/* NAV */
 nav{
   background:#1f3c4a;
   display:flex;
@@ -55,7 +53,6 @@ nav a:hover{
   text-decoration:underline;
 }
 
-/* SECTIONS */
 section{
   padding:60px 20px;
   text-align:center;
@@ -70,7 +67,6 @@ section{
   margin-bottom:10px;
 }
 
-/* CARDS */
 .cards{
   display:flex;
   justify-content:center;
@@ -87,7 +83,6 @@ section{
   font-weight:600;
 }
 
-/* PROJECTS */
 .project{
   background:white;
   max-width:500px;
@@ -97,7 +92,6 @@ section{
   box-shadow:0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* FOOTER */
 footer{
   background:#0f2027;
   color:white;
